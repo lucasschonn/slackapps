@@ -1,7 +1,7 @@
-# slackapps
+## SlackApps
 Repositório de experimentos com a API do Slack :)
 
-# Google Apps Script & Slack API
+## Google Apps Script & Slack API
 
 ### Criando um aplicativo Slack usando o Google Apps Script
 
@@ -31,8 +31,8 @@ Após criado a página de controle de seu app será exibido, nela algumas inform
 
 Por enquanto vamos ignorar estes dados e vamos criar nosso token de segurança, é ele que vai ser nosso passaporte para trilhar o caminho do desenvolvimento de seu app.
 
-1. Vá na sua barra lateral na seção **Features** e em seguida em ****OAuth & Permissions.****
+4. Vá na sua barra lateral na seção **Features** e em seguida em ****OAuth & Permissions.****
 
 Para que possamos obter o token de segurança precisamos primeiramente instalar o aplicativo em seu workspace, mas não podemos fazer isto antes de atribuir algum escopo as configurações. Em outras palavras isto define as permissões que seu aplicativo vai ter sobre o workspace (ler, gerenciar, escrever etc).
 
-1. Navegue até a seção **Scopes** e em **Bot Token Scopes** e vamos adicionar o escopo **commands**.
+5. Navegue até a seção **Scopes** e em **Bot Token Scopes** e vamos adicionar o escopo **commands**.
