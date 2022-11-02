@@ -1,0 +1,74 @@
+{
+    "mencao": {
+        "@pog": "POG",
+        "@bill": "BILL",
+        ":pogzinho:": "POG",
+        ":bill_gates:": "BILL"
+    },
+    "bots": {
+        "BILL": {
+            "nome": "Bill Gates",
+            "foto": ":bill_gates:",
+            "gatilhos": {
+                "bom dia": "SAUDACAO_MANHA",
+                "boa tarde": "SAUDACAO_TARDE",
+                "boa noite": "SAUDACAO_NOITE",
+                "dinheiro": "DINHEIRO"
+            },
+            "respostas": {
+                "SAUDACAO_MANHA": [
+                    "Good Morning",
+                    "Morning"
+                ],
+                "SAUDACAO_TARDE": [
+                    "Hello",
+                    "Hello friend"
+                ], 
+                "SAUDACAO_NOITE": [
+                    "Good evening",
+                    "Sorry, but i'm tired..."
+                ],  
+                "DINHEIRO": [
+                    "If you want my money, i only can say... NO :meme_no:"
+                ],
+                "BASICAS": [
+                    "Yes",
+                    "No",
+                    "Maybe",
+                    "I want to block the sunlight :evil:"
+                ]
+            }
+        },
+        "POG": {
+            "nome": "Pog",
+            "foto": ":pogzinho:",
+            "gatilhos": {
+                "bom dia": "SAUDACAO_MANHA",
+                "boa tarde": "SAUDACAO_TARDE"
+            },
+            "respostas": {
+                "SAUDACAO_MANHA": [
+                    "bom dia",
+                    "esqueci de te responder antes, bom dia"
+                ],
+                "SAUDACAO_TARDE": [
+                    "boa tarde",
+                    "boa tarde nada, eu não almocei ainda :naruto_triste:"
+                ],
+                "BASICAS": [
+                    "ok",
+                    "sim",
+                    "acho melhor não",
+                    "deve ser o dns",
+                    "conversa com a equipe",
+                    "beleza",
+                    "pode deletar",
+                    "~forbidden",
+                    "refaz o commit",
+                    "tem que testar",
+                    "eu sou o pogzinho jesus é meu pastor..."
+                ]
+            }
+        }
+    }
+}
